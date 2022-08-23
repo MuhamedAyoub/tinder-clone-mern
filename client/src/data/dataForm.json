@@ -1,0 +1,17 @@
+"dataDorm" = [
+  {
+    name: "Email",
+    type: "email",
+    setData: setEmail,
+  },
+  {
+    name: "Password",
+    type: "password",
+    setData: setPassword,
+  },
+  {
+    name: "Confirm password",
+    type: "password",
+    setData: setConfPassword,
+  },
+];

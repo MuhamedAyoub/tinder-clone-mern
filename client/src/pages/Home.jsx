@@ -1,11 +1,12 @@
 import NavBar from "../components/NavBar";
 import { useState } from "react";
 import AuthModel from "../components/AuthModel";
+
 const Home = () => {
   const [showModel, setShowModel] = useState(false);
   const [isSignUp, setIsSignUp] = useState(false);
   const authToken = false;
-  const minimal = false;
+  const minimal = true;
   const handleClick = () => {
     setShowModel(!showModel);
     setIsSignUp(true);
@@ -21,7 +22,7 @@ const Home = () => {
         showModel={showModel}
       />
       <div className="wrapper">
-        <h1>Swipe Right@</h1>
+        <h1 className="primary-title">Swipe Right@</h1>
         <button className="primary-button" onClick={handleClick}>
           {authToken ? "Sign out" : "Create Account"}
         </button>

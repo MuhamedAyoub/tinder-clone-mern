@@ -6,6 +6,7 @@ const Form = ({ isSignUp }) => {
   const [password, setPassword] = useState("");
   const [conPassword, setConfPassword] = useState("");
   const [error, setError] = useState("");
+  console.log(password);
   const dataDorm = [
     {
       name: "Email",
@@ -27,14 +28,13 @@ const Form = ({ isSignUp }) => {
     },
   ];
   const handleSubmit = (e) => {
+    e.preventDefault();
     if (password.length < 6) {
       setError("your password is weak");
     }
     if (isSignUp && password !== conPassword) {
       setError("Please right your passwd again");
     } else {
-      setError("");
-      e.preventDefault();
     }
   };
 
@@ -48,13 +48,14 @@ const Form = ({ isSignUp }) => {
               type={item.type}
               name={item.name}
               setData={item.setData}
+              setError={setError}
             />
           )
         );
       })}
 
+      {error?.length > 0 && <p className="error">{error}</p>}
       <input className="secondary-button" type="submit" />
-      {error.length > 0 && <p className="error">{error}</p>}
     </form>
   );
 };

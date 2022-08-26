@@ -1,16 +1,16 @@
-const Input = ({ type, name, setData, key }) => {
+const Input = ({ type, name, setData, setError }) => {
   return (
-    <div className="input-container">
-      <input
-        className="input"
-        key={key}
-        name={name}
-        type={type}
-        required
-        placeholder={name}
-        onChange={(e) => setData(e.target.value)}
-      />
-    </div>
+    <input
+      className="input"
+      name={name}
+      type={type}
+      required
+      placeholder={name}
+      onChange={(e) => {
+        setData(e.target.value);
+        setError("");
+      }}
+    />
   );
 };
 

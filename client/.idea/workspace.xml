@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d3c4926-b854-4f03-a6ba-7e40b43dbf7e" name="Changes" comment="handle form">
+      <change beforePath="$PROJECT_DIR$/../2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/.idea/client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthModel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthModel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/AuthModel.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/NavBar.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/Dashboard.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/Home.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/Onboarding.jsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Dks8UOvwA2FndhPCkTzNUlJypY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/moha_ayoub/Music/00-starting-setup",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/usr/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d3c4926-b854-4f03-a6ba-7e40b43dbf7e" name="Changes" comment="" />
+      <created>1661254258081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661254258081</updated>
+      <workItem from="1661254259410" duration="1609000" />
+      <workItem from="1661256369058" duration="5712000" />
+      <workItem from="1661264876112" duration="626000" />
+      <workItem from="1661265515744" duration="1109000" />
+      <workItem from="1661275606681" duration="4771000" />
+      <workItem from="1661285351445" duration="6359000" />
+      <workItem from="1661348098018" duration="70000" />
+      <workItem from="1661349605079" duration="71000" />
+    </task>
+    <task id="LOCAL-00001" summary="handle form">
+      <created>1661291740062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661291740062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="basic app" />
+    <MESSAGE value="handle form" />
+    <option name="LAST_COMMIT_MESSAGE" value="handle form" />
+  </component>
+</project>

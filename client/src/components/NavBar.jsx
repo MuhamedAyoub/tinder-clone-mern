@@ -20,7 +20,7 @@ const NavBar = ({
           alt="logo"
         />
       </div>
-      {!authToken && !minimal && (
+      {!authToken && minimal && (
         <button
           onClick={handleClick}
           disabled={showModel}

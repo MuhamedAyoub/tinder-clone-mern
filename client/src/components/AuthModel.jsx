@@ -1,6 +1,4 @@
 import Form from "./Form";
-//import { useState } from "react";
-
 const AuthModel = ({ handleClick, isSignUp }) => {
   return (
     <div className="auth-container">

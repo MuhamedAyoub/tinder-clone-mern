@@ -1,12 +1,13 @@
 import Input from "./Input";
 import { useState } from "react";
-
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 const Form = ({ isSignUp }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [conPassword, setConfPassword] = useState("");
   const [error, setError] = useState("");
-  console.log(password);
+  const navigate = useNavigate();
   const dataDorm = [
     {
       name: "Email",
@@ -27,14 +28,23 @@ const Form = ({ isSignUp }) => {
       isLogin: isSignUp,
     },
   ];
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (password.length < 6) {
       setError("your password is weak");
-    }
-    if (isSignUp && password !== conPassword) {
+    } else if (isSignUp && password !== conPassword) {
       setError("Please right your passwd again");
+    } else if (isSignUp) {
+      //TODO create user
+      const response = await axios.post("http://localhost:8000/signup", {
+        email,
+        password,
+      });
+      if (response.status === 201) {
+        navigate("/onboarding");
+      }
     } else {
+      return;
     }
   };
 
